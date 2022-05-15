@@ -24,7 +24,6 @@ functions:
             - ${bref:layer.php-80-fpm}
         events:
             - httpApi: '*'
-            - http: 'ANY /'
     # This function let us run console commands in Lambda
     console:
         handler: bin/console
